@@ -15,26 +15,7 @@ jobs:
           bun-version: latest
       - run: bun install
       - run: bun run build
-      - name: Generate static index.html
-        run: |
-          CSS=$(ls dist/client/assets/styles-*.css | xargs basename)
-          JS=$(ls dist/client/assets/index.es-*.js | xargs basename)
-          cat > dist/client/index.html << EOF
-          <!doctype html>
-          <html lang="en">
-            <head>
-              <meta charset="utf-8" />
-              <meta name="viewport" content="width=device-width, initial-scale=1" />
-              <title>Project Success Pro</title>
-              <link rel="stylesheet" href="./assets/${CSS}" />
-            </head>
-            <body>
-              <div id="root"></div>
-              <script type="module" src="./assets/${JS}"></script>
-            </body>
-          </html>
-          EOF
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: dist/client
+          publish_dir: dist
