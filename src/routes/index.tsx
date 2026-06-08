@@ -52,13 +52,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Project Success Predictor — Free PM Tool" },
+      { title: "Project Success Pro — Free PM Tool" },
       {
         name: "description",
         content:
           "Free, GDPR-compliant project success predictor with transparent math and confidence scoring for PMs worldwide. No AI, no API calls.",
       },
-      { property: "og:title", content: "Project Success Predictor" },
+      { property: "og:title", content: "Project Success Pro" },
       {
         property: "og:description",
         content:
@@ -277,7 +277,7 @@ function Home() {
               <ShieldCheck className="h-4 w-4" />
             </div>
             <div className="leading-tight">
-              <div className="text-sm font-semibold text-foreground">Project Success Predictor</div>
+              <div className="text-sm font-semibold text-foreground">Project Success Pro</div>
               <div className="text-[11px] text-muted-foreground">
                 Portfolio Project — Syed Imon Rizvi
               </div>
@@ -299,7 +299,7 @@ function Home() {
             100% Free · No API Keys · GDPR Compliant
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight text-primary sm:text-6xl">
-            Project Success Predictor
+            Project Success Pro
           </h1>
           <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground sm:text-xl">
             Data-Driven Success Probability for Project Managers Worldwide

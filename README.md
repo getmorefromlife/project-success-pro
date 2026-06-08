@@ -1,4 +1,4 @@
-# Project Success Predictor
+# Project Success Pro
 
 A data-driven success probability tool for project managers. Built by a Senior ICT Project Manager who codes.
 
