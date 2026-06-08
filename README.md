@@ -10,7 +10,7 @@ Created as a portfolio centrepiece demonstrating the intersection of **project m
 
 ## Live Demo
 
-👉 [project-success-pro.vercel.app](https://project-success-pro.vercel.app) _(deployment target)_
+👉 [getmorefromlife.github.io/project-success-pro](https://getmorefromlife.github.io/project-success-pro/)
 
 ## Features
 
