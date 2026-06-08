@@ -686,7 +686,7 @@ function Home() {
             </div>
             <div className="flex justify-center gap-4 sm:justify-end">
               <a
-                href="https://github.com/syedimonrizvi"
+                href="https://github.com/getmorefromlife/project-success-pro"
                 aria-label="GitHub"
                 className="hover:opacity-80"
               >
@@ -699,7 +699,11 @@ function Home() {
               >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="mailto:syed@example.com" aria-label="Contact" className="hover:opacity-80">
+              <a
+                href="mailto:getmorefromlife@gmail.com"
+                aria-label="Contact"
+                className="hover:opacity-80"
+              >
                 <Mail className="h-5 w-5" />
               </a>
             </div>

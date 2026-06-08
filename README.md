@@ -10,7 +10,7 @@ Created as a portfolio centrepiece demonstrating the intersection of **project m
 
 ## Live Demo
 
-[Add deployment URL here — GitHub Pages, Cloudflare Workers, or Vercel]
+👉 [project-success-pro.vercel.app](https://project-success-pro.vercel.app) _(deployment target)_
 
 ## Features
 
