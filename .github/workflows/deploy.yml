@@ -24,9 +24,7 @@ jobs:
           bun-version: latest
       - run: bun install
       - run: bun run build
-      - uses: actions/configure-pages@v5
-        with:
-          static_site_generator: next
+      - run: ls -la dist/client/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist/client
