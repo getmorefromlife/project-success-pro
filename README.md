@@ -1,12 +1,12 @@
 # Project Success Pro
 
-A data-driven success probability tool for project managers. Built by a Senior ICT Project Manager who codes.
+A data-driven success probability tool for project managers. Built by a Senior ICT Project Manager — AI-assisted, human-architected.
 
 ## Why This Exists
 
 67% of projects fail globally (PMI). Most PMs rely on gut feel or opaque dashboards. This tool provides a transparent, repeatable scoring framework — no hidden formulas, no API calls, no costs.
 
-Created as a portfolio centrepiece demonstrating the intersection of **project management domain expertise** and **modern software engineering**.
+Created as a portfolio centrepiece demonstrating the intersection of **project management domain expertise** and **AI-accelerated software delivery**.
 
 ## Live Demo
 
